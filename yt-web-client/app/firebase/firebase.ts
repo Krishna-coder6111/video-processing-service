@@ -3,6 +3,8 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User } from "firebase/auth";
 
+import { getFunctions } from "firebase/functions";
+
 
 
 const firebaseConfig = {
@@ -17,7 +19,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const functions = getFunctions(app);
 const auth = getAuth(app);
 
 export function signInWithGoogle(){
