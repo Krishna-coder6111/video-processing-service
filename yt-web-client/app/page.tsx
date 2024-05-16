@@ -21,3 +21,4 @@ export default async function Home() {
   )
 }
 
+export const revalidate = 30;//rerenders in 30s and sends cache to viewer

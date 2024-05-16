@@ -40,3 +40,13 @@ Google Cloud Storage
 Google Cloud Pub/Sub
 Google Cloud Run
 
+## Future Work
+- Add user's profile picture and email to Web Client (made in marketplace and kanbas project)
+- (Bug fix) Allow users to upload multiple videos without refreshing the page
+- Allow users to upload thumbnails for their videos
+- Allow user's to add a title and description to their videos
+- Show the uploader of a video (premade in marketplace project)
+- Allow user's to subscribe to other user's channels
+- Clean up raw videos in Cloud Storage after processing
+- Use a CDN to serve videos
+- Add unit and integration tests
